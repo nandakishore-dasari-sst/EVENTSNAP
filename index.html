@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album and Schedule App</title>
+    <link rel="stylesheet" href="p1style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>EVENTSNAP</h1>
+        
+        
+        <div class="button-group">
+            <button id="scheduleBtn" class="primary-btn">Schedule Event</button>
+        </div>
+
+        <div class="upload-box">
+            <div class="upload-area" id="dropArea">
+                <p>Drop your image here or click to upload</p>
+                <input type="file" id="uploadInput" accept="image/*" class="hidden-input">
+            </div>
+            <div id="progressBar" class="upload-progress hidden">
+                <div class="progress-inner"></div>
+            </div>
+        </div>
+
+        <div id="errorBox" class="error-message hidden"></div>
+
+        <div id="albumBox" class="album-container">
+            <h2>Your Album</h2>
+            <div id="photoGrid" class="photo-grid"></div>
+        </div>
+    </div>
+
+    <script src="plscript.js"></script>
+</body>
+</html>
