@@ -1,6 +1,6 @@
 # EVENTSNAP
 
-## EventSnap is a simple and lightweight website for two things:                                    
+## EventSnap is a simple website for two things:                                    
                 
 **Scheduling events –** Quickly add events to Google Calendar with one click.
 
